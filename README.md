@@ -1,5 +1,10 @@
 # vue_avatar
 
+## Project Demo
+```
+https://osmantamer.github.io/vue-avatar-demo/
+```
+
 ## Project setup
 ```
 yarn install

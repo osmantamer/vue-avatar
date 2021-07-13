@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card height="100vh" class="d-flex align-center justify-center">
     <v-dialog v-model="dialog" width="500">
       <template v-slot:activator="{ on, attrs }">
         <input type="file" ref="file" style="display: none" @change="onFileSelected" >
@@ -50,7 +50,7 @@ export default {
       image_loading: false,
       selectedFile: null,
       avatarStatus: true,
-      avatarSize: 80,
+      avatarSize: 120,
       img: null,
       coordinates: null,
     }
